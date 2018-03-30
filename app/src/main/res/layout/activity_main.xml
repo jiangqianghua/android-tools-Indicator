@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:jqh="http://schemas.android.com/apk/res/com.example.jiangqianghua.viewpagerindicator"
+    >
+    <!-- 指示器 -->
+    <com.jqh.view.ViewPagerIndicator
+        android:id="@+id/id_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#99000000"
+        android:orientation="horizontal"
+        jqh:visbale_tab_count="4">
+        <!--
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="#ccffffff"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="短信" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="#ccffffff"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="收藏" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="#ccffffff"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="推荐" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="#ccffffff"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="短信1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="#ccffffff"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="收藏1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="#ccffffff"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="推荐1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="#ccffffff"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="短信2" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="#ccffffff"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="收藏3" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textColor="#ccffffff"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="推荐2" />
+            -->
+    </com.jqh.view.ViewPagerIndicator>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
